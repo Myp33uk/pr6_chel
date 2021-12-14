@@ -25,6 +25,11 @@ namespace chel_pr5
             Density = density;
             return this;
         }
+        public Liquid SetParams(int volume)
+        {
+            Volume = volume;
+            return this;
+        }
         public static bool operator ==(Liquid c1, Liquid c2)
         {
             bool result;
